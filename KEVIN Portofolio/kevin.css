@@ -1,0 +1,157 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    bottom: 35px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+/* Nama Section Styles */
+#Nama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+  }
+  
+  .nama {
+    text-align: center;
+  }
+  
+#about h2 {
+    text-align: center; 
+}
+
+  /* Layout Adjustments */
+  #navbar {
+    text-align: right; 
+  }
+  
+  #navbar ul {
+    margin-top: 10px; 
+  }
+  
+  #navbar ul li:first-child {
+    margin-left: 20px; 
+  }
+  
+
+  #navbar ul {
+    list-style-type: none;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 50px 0;
+  }
+  
+  /* About Section Styles */
+  #about .tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about .foto {
+    margin-right: 20px;
+  }
+  
+  #about .foto img {
+    width: 200px;
+    height: auto;
+  }
+
+/* Sertifikat Section Styles */
+#sertifikat {
+    text-align: center; /* Pusatkan judul */
+  }
+  
+  #sertifikat h2 {
+    margin-bottom: 20px; /* Beri jarak bawah */
+  }
+
+/* Pendidikan Section Styles */
+#pendidikan {
+    text-align: center; /* Pusatkan judul */
+  }
+  
+  #pendidikan h2 {
+    margin-bottom: 20px; /* Beri jarak bawah */
+  }
+  
+  #pendidikan p {
+    text-align: center; /* Pusatkan isi */
+  }
+  
+  
+  /* Certificate Section Styles */
+  #sertifikat ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #sertifikat li {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  #sertifikat li p {
+    margin-top: 10px;
+  }
+  
+  /* Education Section Styles */
+  #pendidikan p {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
